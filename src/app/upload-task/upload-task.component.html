@@ -13,7 +13,7 @@
 
 <div *ngIf="(snapshot | async) as snap">
 
-  {{ snap.bytesTransferred }} of {{ snap.totalBytes }} 
+  {{file.name}}
 
 
   <div *ngIf="downloadURL as url">
